@@ -1,0 +1,23 @@
+{
+  "name": "danfekete/jelenleti",
+  "description": "Jelenleti ív generátor",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Daniel Fekete",
+      "email": "daniel.fekete@voov.hu"
+    }
+  ],
+  "require": {
+    "symfony/console": "3.1.*",
+    "jenssegers/date": "3.2.*",
+    "league/period": "3.2.*",
+    "phpoffice/phpexcel": "1.8.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "danfekete\\jelenleti\\": "src"
+    }
+  }
+}
